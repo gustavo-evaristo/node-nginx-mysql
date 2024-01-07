@@ -19,7 +19,7 @@ Certifique-se de ter as seguintes ferramentas instaladas antes de executar o pro
 ```bash
 git clone https://github.com/gustavo-evaristo/node-nginx-mysql.git
 
-cd seu-projeto
+cd node-nginx-mysql
 ```
 
 ## 2. Execute o seguinte comando para iniciar os serviços:
