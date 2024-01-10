@@ -24,6 +24,8 @@ services:
       - "8000:8000"
     networks:
       - node-network
+    volumes:
+      - ./:/usr/app
 
   nginx:
     build: ./nginx
