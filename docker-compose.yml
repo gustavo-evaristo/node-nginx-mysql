@@ -25,7 +25,8 @@ services:
     networks:
       - node-network
     volumes:
-      - ./:/usr/app/
+      - .:/app
+      - /app/node_modules
 
   nginx:
     build: ./nginx

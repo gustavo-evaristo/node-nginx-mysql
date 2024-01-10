@@ -1,6 +1,6 @@
 FROM node:20-alpine
 
-WORKDIR /usr/app
+WORKDIR /app
 
 ENV DOCKERIZE_VERSION v0.7.0
 
